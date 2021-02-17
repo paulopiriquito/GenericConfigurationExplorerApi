@@ -27,7 +27,7 @@ namespace ConfigurationExplorer.Presentation.WebApi
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1",
-                    new OpenApiInfo {Title = "ConfigurationExplorer.Presentation.WebApi", Version = "v1"});
+                    new OpenApiInfo {Title = "ConfigurationExplorer", Version = "v1"});
             });
         }
 
@@ -36,7 +36,7 @@ namespace ConfigurationExplorer.Presentation.WebApi
         {
             app.UseSwagger();
             app.UseSwaggerUI(c =>
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "ConfigurationExplorer.Presentation.WebApi v1"));
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "ConfigurationExplorer"));
 
             app.UseRouting();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
