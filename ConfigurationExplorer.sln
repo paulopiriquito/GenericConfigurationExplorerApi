@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationExplorer.Presentation.WebApi", "ConfigurationExplorer.Presentation.WebApi\ConfigurationExplorer.Presentation.WebApi.csproj", "{EEB649CA-1927-49B5-AEAB-E8404C07510A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationExplorer.Application.DynamicControllerGenerator", "ConfigurationExplorer.Application.DynamicControllerGenerator\ConfigurationExplorer.Application.DynamicControllerGenerator.csproj", "{D3FD3E1E-189C-4299-A195-330BD95EB4C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationExplorer.Models", "ConfigurationExplorer.Models\ConfigurationExplorer.Models.csproj", "{0A585DE9-B1BB-4289-8DF3-AE777AB59A57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEB649CA-1927-49B5-AEAB-E8404C07510A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB649CA-1927-49B5-AEAB-E8404C07510A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB649CA-1927-49B5-AEAB-E8404C07510A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB649CA-1927-49B5-AEAB-E8404C07510A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3FD3E1E-189C-4299-A195-330BD95EB4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FD3E1E-189C-4299-A195-330BD95EB4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FD3E1E-189C-4299-A195-330BD95EB4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FD3E1E-189C-4299-A195-330BD95EB4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A585DE9-B1BB-4289-8DF3-AE777AB59A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A585DE9-B1BB-4289-8DF3-AE777AB59A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A585DE9-B1BB-4289-8DF3-AE777AB59A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A585DE9-B1BB-4289-8DF3-AE777AB59A57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
